@@ -1,0 +1,25 @@
+doctype
+html(lang="ru")
+  head
+    title Pages List
+    include assets/_metas
+    include assets/_links
+    include assets/_scripts
+  body
+    .ex-wrap
+      .ex-wrap__inner
+        .ex-project-name
+          h1 Project Name
+        .ex-pages
+          .ex-pages__header
+            span All pages
+            span.ex-pages__count 3
+          ul.ex-pages__list
+            li.ex-pages__list-item
+              a(target='_blank').ex-pages__list-link.done Home
+            li.ex-pages__list-item
+              a(target='_blank').ex-pages__list-link.missing Home
+            li.ex-pages__list-item
+              a(target='_blank').ex-pages__list-link Home
+      .ex-copyright develop in
+        a(href='https://t.me/ko_smos' target='_blank') #cosmos
